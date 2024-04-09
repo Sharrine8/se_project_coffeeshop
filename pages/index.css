@@ -17,7 +17,7 @@
   box-sizing: border-box;
   background-color: #fff;
   background-image: url(../images/background_header.svg);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
