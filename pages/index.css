@@ -144,7 +144,7 @@
   min-height: 720px;
   max-height: 800px;
   color: white;
-  padding-bottom: 215px;
+  padding: 100px 80px 215px;
   margin: 0;
 }
 
@@ -155,8 +155,7 @@
   font-size: 44px;
   line-height: 52px;
   max-width: 580px;
-  margin: 0 0 0 80px;
-  padding-top: 100px;
+  margin-bottom: 24px;
 }
 
 .recipes__subtitle {
@@ -166,7 +165,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin: 24px 0 80px 80px;
+  margin-bottom: 80px;
 }
 
 .recipes__videos {
