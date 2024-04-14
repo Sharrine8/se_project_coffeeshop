@@ -13,4 +13,5 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+1. Circle animation seems slightly choppy. A smoother transition would be better.
+2. Video size may be too small. Can find a way to make it take up more of the page.
