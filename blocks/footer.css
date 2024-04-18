@@ -1,6 +1,6 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-  padding: 80px 60px;
+  padding: 60px 80px;
   color: #fff;
 }
 
@@ -15,16 +15,21 @@
   margin: 0 0 108px;
 }
 
+.footer__column {
+  background-image: hidden;
+}
+
 .footer__list {
   list-style-type: none;
   gap: 16px;
   display: flex;
   flex-direction: column;
   margin: 0;
+  padding: 0;
 }
 
 .footer__social-heading {
-  margin: 0 0 4px;
+  margin: 0 0 20px;
 }
 
 .footer__list-item {
@@ -41,7 +46,7 @@
   margin: 0;
 }
 
-.footer__list-item:hover {
+.footer__social-link:hover {
   color: #c1c1c1;
 }
 

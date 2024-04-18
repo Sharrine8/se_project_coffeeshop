@@ -12,22 +12,26 @@
 
 .form__input {
   border-radius: 4px;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: #838383;
   height: 60px;
   margin: 0 0 32px;
   padding: 0 0 0 12px;
   width: 100%;
   display: block;
   max-width: -webkit-fill-available;
+  border: #838383;
+}
+
+.form__input::placeholder {
+  color: #838383;
 }
 
 .form__label {
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -38,7 +42,7 @@
 
 .form__button {
   border-radius: 4px;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -49,6 +53,7 @@
   border: none;
   height: 60px;
   width: 100%;
+  cursor: pointer;
 }
 
 .form__button:hover {
@@ -62,7 +67,7 @@
   align-items: center;
 }
 
-.form__fieldset .form__checkbox {
+.form__checkbox {
   border-radius: 2px;
   height: 20px;
   width: 20px;
