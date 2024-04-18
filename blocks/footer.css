@@ -15,10 +15,6 @@
   margin: 0 0 108px;
 }
 
-.footer__column {
-  background-image: hidden;
-}
-
 .footer__list {
   list-style-type: none;
   gap: 16px;
@@ -48,6 +44,8 @@
 
 .footer__social-link:hover {
   color: #c1c1c1;
+  transition: color 1s ease-in-out;
+  cursor: pointer;
 }
 
 .footer__copyright {
