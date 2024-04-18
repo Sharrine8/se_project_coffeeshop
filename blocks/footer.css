@@ -26,11 +26,11 @@
 
 .footer__social-heading {
   margin: 0 0 20px;
-}
-
-.footer__list-item {
-  display: flex;
-  gap: 10px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__social-icon {
@@ -40,6 +40,15 @@
 
 .footer__social-link {
   margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  gap: 10px;
 }
 
 .footer__social-link:hover {
@@ -50,4 +59,9 @@
 
 .footer__copyright {
   margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
